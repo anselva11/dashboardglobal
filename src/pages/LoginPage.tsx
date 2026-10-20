@@ -189,7 +189,8 @@ export const LoginPage: React.FC = () => {
                     required
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    placeholder="globalexporindonesia@gmail.com"
+                    placeholder=""
+                    autoComplete="off"
                     className="w-full pl-9 pr-3 py-2 border border-slate-300 rounded-lg outline-none focus:border-navy-900 focus:ring-1 focus:ring-navy-900 transition-all font-medium"
                   />
                 </div>
@@ -206,7 +207,8 @@ export const LoginPage: React.FC = () => {
                     required
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    placeholder="••••••••"
+                    placeholder=""
+                    autoComplete="new-password"
                     className="w-full pl-9 pr-9 py-2 border border-slate-300 rounded-lg outline-none focus:border-navy-900 focus:ring-1 focus:ring-navy-900 transition-all font-medium"
                   />
                   <button
@@ -242,7 +244,8 @@ export const LoginPage: React.FC = () => {
                     required
                     value={name}
                     onChange={(e) => setName(e.target.value)}
-                    placeholder="e.g. Hansel Varian Putra"
+                    placeholder=""
+                    autoComplete="off"
                     className="w-full pl-9 pr-3 py-2 border border-slate-300 rounded-lg outline-none focus:border-navy-900"
                   />
                 </div>
@@ -259,7 +262,8 @@ export const LoginPage: React.FC = () => {
                     required
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    placeholder="user@globalexpor.id"
+                    placeholder=""
+                    autoComplete="off"
                     className="w-full pl-9 pr-3 py-2 border border-slate-300 rounded-lg outline-none focus:border-navy-900"
                   />
                 </div>
@@ -276,7 +280,8 @@ export const LoginPage: React.FC = () => {
                     required
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    placeholder="Minimal 6 karakter"
+                    placeholder=""
+                    autoComplete="new-password"
                     className="w-full pl-9 pr-9 py-2 border border-slate-300 rounded-lg outline-none focus:border-navy-900"
                   />
                   <button
